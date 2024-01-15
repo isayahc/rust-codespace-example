@@ -1,0 +1,21 @@
+{
+	"name": "Rust template",
+	"customizations": {
+        "vscode": {
+            "extensions": [
+				"matklad.rust-analyzer",
+				"serayuzgur.crates",
+				"tamasfe.even-better-toml"
+			],
+            "settings": {
+                "editor.formatOnSave": true
+            }
+        }
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest",
+			"profile": "minimal"
+		}
+	}
+}
